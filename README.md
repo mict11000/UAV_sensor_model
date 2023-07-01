@@ -1,6 +1,9 @@
 # Tutorial para modelar un sensor pasivo (cámaras) y activo (Lidar) en un RPAS 
 
-Este repositorio contiene el código en Python de un módulo que implementa clases para modelar un sensor pasivo es decir una cámara digital, permitiendo obtener algunas de sus propiedades, cálculo de las coordenadas de los vértices de una imagen aérea y su proyección según su posición y orientación, la huella en el terreno (footprint) como un vector que se puede visualizar en un SIG, por ultimo permite aplicar la georreferenciación directa, se utilizó las librerías fundamentales de Python como GDAL Y Numpy.
+Este repositorio contiene el código en Python de un módulo que implementa diferente clases; una para modelar un sensor pasivo es decir una cámara digital, permitiendo obtener algunas de sus propiedades, cálculo de las coordenadas de los vértices de una imagen aérea y su proyección según su posición y orientación, la huella en el terreno (footprint) como un vector tipo polígono que se puede visualizar en un SIG, por ultimo permite aplicar la georreferenciación directa. Adicionalmente existe otras dos clases aun en desarrollo, para obtener la ruta de vuelo como un vector tipo línea a partir de una lista de coordenadas y el cambio de dirección entre lineas de vuelo mediante una semicircunferencia generada a partir de un polígono regular inscrito en una circunferencia, se utilizó las librerías fundamentales de Python como GDAL Y Numpy.
+
+
+Para poder demostrar la funcionalidad del módulo se provee un notebook que puede ser ejecutado en el siguiente ambiente: 
 
 # Instalación y creación del ambiente
 
@@ -36,10 +39,6 @@ Ejecutar jupyter lab:
  ```
 jupyter lab
 ```
-
-
-
-
 
 
 ## Referencias
