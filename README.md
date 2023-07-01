@@ -13,7 +13,7 @@ Ejecutar en Anaconda Prompt o el terminal, las siguientes líneas de código:
 Crear un nuevo ambiente:
 
 ```
-conda create --name osgeo_env -c conda-forge python=3.10
+conda create -n osgeo_env -c conda-forge python=3.10
 ```
 
 Instalar las librerías necesarias:
