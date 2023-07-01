@@ -36,7 +36,7 @@ mamba install -c conda-forge jupyterlab
 Ejecutar jupyter lab:
 
  ```
-jupyter lab
+jupyter lab --browser=firefox
 ```
 
 
