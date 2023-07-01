@@ -30,6 +30,10 @@ mamba install -c conda-forge geopandas
 ```
 
 ```
+mamba install -c conda-forge folium
+```
+
+```
 mamba install -c conda-forge jupyterlab
 ```
 
