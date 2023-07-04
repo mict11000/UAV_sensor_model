@@ -28,7 +28,7 @@ Instalar las librerías necesarias:
 mamba install -c conda-forge gdal geopandas folium jupyterlab
 ```
 
-Ejecutar jupyter lab, con el navegaor de nuestra preferencia:
+Ejecutar jupyter lab, con el navegador de nuestra preferencia:
 
  ```
 jupyter lab --browser=firefox
