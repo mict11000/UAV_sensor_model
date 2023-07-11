@@ -3,7 +3,7 @@
 """
 Created on Tue Mar 26 14:18:35 2019
 
-@author: italo
+@author: Marco Italo Castañeda Tinco
 
 X/longitude/easting/columns/width/horizontal/left-right/across path, strip, track
 Y/latitude/northing/rows/height/vertical/top-bottom/along path, strip, track
